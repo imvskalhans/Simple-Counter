@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title> 
+   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- wrapper -->
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <h1>Counter App</h1>
+        </div>
+        <!-- main content -->
+        <div class="content">
+            <div class="counter">
+                <h1 id="counter">0</h1>
+            </div>
+            <div class="buttons">
+                <button onclick="increment()" id="increase" class="btn">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <button onclick="reset()" id="reset" class="btn"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+                <button  onclick="decrement()" id="decrease" class="btn"> <i class="fa fa-minus" aria-hidden="true"></i></button>
+</button>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <p>&#169 Created by Vishal Singh </p>
+    </div>
+    <script src="https://kit.fontawesome.com/61ebb60581.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
